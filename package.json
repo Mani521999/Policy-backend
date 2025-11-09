@@ -1,0 +1,25 @@
+{
+  "name": "insure_mine",
+  "version": "1.0.0",
+  "main": "master.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node master.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "csv-parse": "^6.1.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "joi": "^18.0.1",
+    "mongoose": "^8.19.3",
+    "multer": "^2.0.2",
+    "node-schedule": "^2.1.1",
+    "pidusage": "^4.0.1",
+    "xlsx": "^0.18.5"
+  }
+}
